@@ -1,43 +1,37 @@
 # 💖 Valentine App 2026
+
 An interactive, high-performance web application designed as a personalized Valentine's Day invitation. This project demonstrates modern React patterns, clean TypeScript architecture, and a focus on delightful User Experience (UX).
 
-# 🚀 Tech Stack
-Framework: Next.js 15 (App Router)
+## 🚀 Tech Stack
 
-Language: TypeScript (Strict Mode)
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript (Strict Mode)
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Email Service**: Resend
+- **Deployment**: Vercel
 
-Styling: Tailwind CSS v4
+## ✨ Key Features
 
-Animations: Framer Motion
+- **Interactive "Yes" Logic**: A dynamic state-driven "Yes" button that grows in size as the user attempts to decline, ensuring a playful and inevitable "Yes" outcome.
+- **Automated Email Confirmation**: Integration with **Resend API** to trigger real-time email notifications upon acceptance.
+- **Optimized Background Animations**: High-performance floating heart particles implemented with `next/dynamic` to ensure zero hydration mismatches.
+- **Mobile-First Responsive Design**: Specifically optimized for seamless viewing on mobile devices and tablets.
+- **Clean Code Standards**: Modular component structure and rigorous TypeScript typing.
 
-Email Service: Resend
+## 🛠️ Getting Started
 
-Deployment: Vercel
+### Prerequisites
 
-# ✨ Key Features
-Interactive "Yes" Logic: A dynamic state-driven "Yes" button that grows in size as the user attempts to decline, ensuring a playful and inevitable "Yes" outcome.
+- **Node.js**: 18.x or later
+- **API Key**: A [Resend](https://resend.com/) account and API key.
 
-Automated Email Confirmation: Integration with Resend API to trigger real-time email notifications upon acceptance.
+### Installation
 
-Optimized Background Animations: High-performance floating heart particles implemented with next/dynamic to ensure zero hydration mismatches and smooth 60 FPS performance.
-
-Mobile-First Responsive Design: Specifically optimized for seamless viewing on mobile devices and tablets.
-
-Clean Code Standards: Modular component structure, rigorous TypeScript typing, and accessible UI elements.
-
-# 🛠️ Getting Started
-Prerequisites
-Node.js 18.x or later
-
-A Resend API Key
-
-Installation
-Clone the repository:
-
-Bash
-
-git clone https://github.com/your-username/valentine-app.git
-cd valentine-app
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/tomeksproch/valentine-app.git](https://github.com/tomeksproch/valentine-app.git)
+   cd valentine-app
 Install dependencies:
 
 Bash
@@ -54,10 +48,23 @@ Bash
 
 npm run dev
 📁 Project Structure
-/app/api/send/route.ts: Server-side API endpoint for secure email handling.
+app/api/send/route.ts — Server-side API endpoint for secure email handling.
 
-/app/components/floating-hearts.tsx: Client-side only animation component using Framer Motion.
+app/components/floating-hearts.tsx — Client-side only animation component.
 
-/app/page.tsx: Main application logic and state management.
+app/page.tsx — Main application logic and state management.
 
-/public: Optimized assets and GIFs.
+public/ — Optimized assets and GIFs.
+
+
+### 💡 Pro-tip na koniec:
+Widzę na Twoim zrzucie ekranu ze strukturą plików, że w folderze `public/` wciąż zalegają:
+* `file.svg`
+* `globe.svg`
+* `next.svg`
+* `vercel.svg`
+* `window.svg`
+
+Wywal je (`rm public/*.svg`), żeby repozytorium było idealnie czyste i zawierało tylko Twoje gify: `ask-gif.gif` oraz `success-gif.gif`.
+
+Czy chciałbyś, żebym pomógł Ci teraz z instrukcją, jak dodać ten klucz `RESEND_API_KEY` bezpośrednio w panelu Vercel, żeby po wysłaniu linku żonie maile na pewno działały?
