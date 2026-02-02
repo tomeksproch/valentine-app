@@ -47,7 +47,8 @@ Run the development server:
 Bash
 
 npm run dev
-📁 Project Structure
+
+## 📁 Project Structure
 app/api/send/route.ts — Server-side API endpoint for secure email handling.
 
 app/components/floating-hearts.tsx — Client-side only animation component.
@@ -56,15 +57,3 @@ app/page.tsx — Main application logic and state management.
 
 public/ — Optimized assets and GIFs.
 
-
-### 💡 Pro-tip na koniec:
-Widzę na Twoim zrzucie ekranu ze strukturą plików, że w folderze `public/` wciąż zalegają:
-* `file.svg`
-* `globe.svg`
-* `next.svg`
-* `vercel.svg`
-* `window.svg`
-
-Wywal je (`rm public/*.svg`), żeby repozytorium było idealnie czyste i zawierało tylko Twoje gify: `ask-gif.gif` oraz `success-gif.gif`.
-
-Czy chciałbyś, żebym pomógł Ci teraz z instrukcją, jak dodać ten klucz `RESEND_API_KEY` bezpośrednio w panelu Vercel, żeby po wysłaniu linku żonie maile na pewno działały?
