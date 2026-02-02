@@ -2,6 +2,8 @@
 
 An interactive, high-performance web application designed as a personalized Valentine's Day invitation. This project demonstrates modern React patterns, clean TypeScript architecture, and a focus on delightful User Experience (UX).
 
+SEE LIVE: **https://valentine-app-teal.vercel.app/**
+
 ## 🚀 Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
