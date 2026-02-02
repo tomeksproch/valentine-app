@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💖 Valentine App 2026
+An interactive, high-performance web application designed as a personalized Valentine's Day invitation. This project demonstrates modern React patterns, clean TypeScript architecture, and a focus on delightful User Experience (UX).
 
-## Getting Started
+# 🚀 Tech Stack
+Framework: Next.js 15 (App Router)
 
-First, run the development server:
+Language: TypeScript (Strict Mode)
 
-```bash
+Styling: Tailwind CSS v4
+
+Animations: Framer Motion
+
+Email Service: Resend
+
+Deployment: Vercel
+
+# ✨ Key Features
+Interactive "Yes" Logic: A dynamic state-driven "Yes" button that grows in size as the user attempts to decline, ensuring a playful and inevitable "Yes" outcome.
+
+Automated Email Confirmation: Integration with Resend API to trigger real-time email notifications upon acceptance.
+
+Optimized Background Animations: High-performance floating heart particles implemented with next/dynamic to ensure zero hydration mismatches and smooth 60 FPS performance.
+
+Mobile-First Responsive Design: Specifically optimized for seamless viewing on mobile devices and tablets.
+
+Clean Code Standards: Modular component structure, rigorous TypeScript typing, and accessible UI elements.
+
+# 🛠️ Getting Started
+Prerequisites
+Node.js 18.x or later
+
+A Resend API Key
+
+Installation
+Clone the repository:
+
+Bash
+
+git clone https://github.com/your-username/valentine-app.git
+cd valentine-app
+Install dependencies:
+
+Bash
+
+npm install
+Environment Setup: Create a .env.local file in the root directory and add your credentials:
+
+Fragment kodu
+
+RESEND_API_KEY=re_your_api_key_here
+Run the development server:
+
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📁 Project Structure
+/app/api/send/route.ts: Server-side API endpoint for secure email handling.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+/app/components/floating-hearts.tsx: Client-side only animation component using Framer Motion.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+/app/page.tsx: Main application logic and state management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/public: Optimized assets and GIFs.
