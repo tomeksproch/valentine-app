@@ -30,7 +30,7 @@ SEE LIVE: **https://valentine-app-teal.vercel.app/**
 
 ### Installation
 
-1. **Clone the repository**:
+### 1. Clone the repository
    ```bash
    git clone [https://github.com/tomeksproch/valentine-app.git](https://github.com/tomeksproch/valentine-app.git)
    cd valentine-app
