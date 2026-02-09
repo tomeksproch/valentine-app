@@ -34,21 +34,26 @@ SEE LIVE: **https://valentine-app-teal.vercel.app/**
    ```bash
    git clone [https://github.com/tomeksproch/valentine-app.git](https://github.com/tomeksproch/valentine-app.git)
    cd valentine-app
-Install dependencies:
+   ```
+   
+### 2. Install dependencies
 
-Bash
-
+ ```bash
 npm install
-Environment Setup: Create a .env.local file in the root directory and add your credentials:
+ ```
 
-Fragment kodu
+### 3. Environment Configuration
+**Create a .env.local file in the root directory and add your keys::**
 
+```bash
 RESEND_API_KEY=re_your_api_key_here
-Run the development server:
+```
 
-Bash
+### 4. Run the project
 
+```bash
 npm run dev
+```
 
 ## 📁 Project Structure
 app/api/send/route.ts — Server-side API endpoint for secure email handling.
