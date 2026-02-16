@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anusiu, mam pytanie... ❤️",
+  title: "Żonko, mam pytanie... ❤️",
   description: "Specjalna wiadomość dla mojej żony",
   robots: { index: false, follow: false },
 };

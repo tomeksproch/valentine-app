@@ -8,7 +8,7 @@ export async function POST() {
     const { data, error } = await resend.emails.send({
       from: 'Walentynka <onboarding@resend.dev>',
       to: ['zyxatt@gmail.com'],
-      subject: 'MAMY TO! ❤️ Anusia powiedziała TAK!',
+      subject: 'MAMY TO! ❤️ Żonka powiedziała TAK!',
       html: `
         <div style="font-family: sans-serif; text-align: center; color: #e11d48;">
           <h1>Oficjalne potwierdzenie!</h1>

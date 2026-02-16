@@ -13,7 +13,7 @@ const NO_PHRASES: readonly string[] = [
   "Nie",
   "Na pewno?",
   "Pomyśl jeszcze raz...",
-  "Anusiu, proszę!",
+  "Żonko, proszę!",
   "Będę smutny :(",
   "Serio?",
   "Daj spokój...",
@@ -63,7 +63,7 @@ export default function ValentinePage() {
             className="max-w-md w-full text-center space-y-10 z-10"
           >
             <h1 className="text-4xl md:text-6xl font-black text-rose-600 drop-shadow-md px-2">
-              Anusiu, czy zostaniesz moją <span className="text-pink-500 underline decoration-wavy">walentynką?</span>
+              Żonko, czy zostaniesz moją <span className="text-pink-500 underline decoration-wavy">walentynką?</span>
             </h1>
 
             <div className="relative h-56 w-56 md:h-72 md:w-72 mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white">
